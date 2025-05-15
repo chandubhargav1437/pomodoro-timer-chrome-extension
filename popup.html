@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Pomodoro Timer</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Pomodoro Timer</h1>
+    <div class="timer-display" id="timer">25:00</div>
+    <div class="controls">
+      <button id="startBtn">Start</button>
+      <button id="pauseBtn" disabled>Pause</button>
+      <button id="resetBtn">Reset</button>
+    </div>
+    <div class="settings">
+      <label>
+        Pomodoro (minutes):
+        <input type="number" id="pomodoroTime" value="25" min="1">
+      </label>
+      <label>
+        Short Break (minutes):
+        <input type="number" id="shortBreakTime" value="5" min="1">
+      </label>
+      <label>
+        Long Break (minutes):
+        <input type="number" id="longBreakTime" value="15" min="1">
+      </label>
+    </div>
+    <div class="status" id="status">Ready to work!</div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

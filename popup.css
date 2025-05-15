@@ -1,0 +1,65 @@
+body {
+    width: 300px;
+    padding: 15px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .timer-display {
+    font-size: 3rem;
+    margin: 20px 0;
+    font-weight: bold;
+  }
+  
+  .controls {
+    margin: 20px 0;
+  }
+  
+  button {
+    padding: 8px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+  }
+  
+  button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+  }
+  
+  #pauseBtn {
+    background-color: #f39c12;
+  }
+  
+  #resetBtn {
+    background-color: #e74c3c;
+  }
+  
+  .settings {
+    margin: 20px 0;
+    text-align: left;
+  }
+  
+  .settings label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .settings input {
+    width: 50px;
+    padding: 5px;
+    margin-left: 10px;
+  }
+  
+  .status {
+    margin-top: 15px;
+    font-style: italic;
+    color: #555;
+  }
